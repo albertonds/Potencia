@@ -12,7 +12,7 @@ public class Potencia
 		System.out.println("Indicar el valor de la base:");
 		base = Integer.parseInt(lectura.readLine());
 		System.out.println("Indicar el valor del exponente:");
-		exp = Integer.parseInt(lectura.readLine());
+		exp = Integer.parseInt(lectura.re());
 		for (i=1;i<=exp;i++)
 		{
 			resultado=resultado*base;
