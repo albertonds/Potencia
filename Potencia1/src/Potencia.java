@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 public class Potencia 
 {
-	public static void main(String[] args) throws IOException
+	public  main(String[] args) throws IOException//elimino static void
 	{
 		BufferedReader lectura = new 
 		BufferedReader(new InputStreamReader(System.in));
